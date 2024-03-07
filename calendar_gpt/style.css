@@ -1,0 +1,22 @@
+#calendar {
+    width: 65%; /* Tamaño de la columna en la que se encuentra el calendario */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  .calendar-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .calendar-table th,
+  .calendar-table td {
+    border: 1px solid #ccc;
+    padding: 5px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .selected {
+    background-color: #e0e0e0;
+  }
