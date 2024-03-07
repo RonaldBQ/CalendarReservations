@@ -15,65 +15,67 @@
   <main class="container">
 
     <section class="calendar-base">
-      
-      <section class="section-left-">
 
+      <!-- Section for event -->
+      <section class="section-left">
+          <div class="nav">
+            <div class="hamburger">
+              <div class="burger-line"></div>
+              <div class="burger-line"></div>
+              <div class="burger-line"></div>
+            </div>
+          </div>
+
+          <section class="section-date">
+            <div class="num-date">
+              <span>14</span>
+            </div>
+            <div class="day">
+              <span>Jueves</span>
+            </div>
+          </section>
+
+          <section class="current-events">
+            <span class="tag">Salas disponibles</span>
+            <div class="group-salas">
+              <div class="sala">Sala 1</div>
+              <div class="sala">Sala 2</div>
+              <div class="sala">Sala 3</div>
+              <div class="sala">Sala 4</div>
+            </div>
+            <span class="tag">Salas ocupadas</span>
+            <div class="group-salas">
+              <div class="sala">Sala 1</div>
+              <div class="sala">Sala 2</div>
+              <div class="sala">Sala 3</div>
+              <div class="sala">Sala 4</div>
+            </div>
+          </section>
       </section>
+
+      <!-- Section for calendar -->
       <section class="section-right">
-        
+        <div class="calendar"></div>
       </section>
 
-      <div class="calendar-left">
-        <div class="nav-left">
-          <div class="hamburger">
-            <div class="burger-line"></div>
-            <div class="burger-line"></div>
-            <div class="burger-line"></div>
-          </div>
-        </div>
 
-        <!--section-date -->
-        <section class="section-date">
-          <div class="num-date">
-            <span>14</span>
-          </div>
-          <div class="day">
-            <span>Jueves</span>
-          </div>
-        </section>
 
-        <!-- current eventes -->
-        <section class="current-events">
-          <span class="tag">Salas disponibles</span>
-          <div class="group-salas">
-            <div class="sala">Sala 1</div>
-            <div class="sala">Sala 2</div>
-            <div class="sala">Sala 3</div>
-            <div class="sala">Sala 4</div>
-          </div>
-          <span class="tag">Salas ocupadas</span>
-          <div class="group-salas">
-            <div class="sala">Sala 1</div>
-            <div class="sala">Sala 2</div>
-            <div class="sala">Sala 3</div>
-            <div class="sala">Sala 4</div>
-          </div>
-        </section>
-        <section class="create-event">
-            <button class="button" type="submit">Reservar sala</button>
-        </section>
-        
+      <section class="create-event">
+        <button class="button" type="submit">Reservar sala</button>
+      </section>
+
       </div>
       <section class="calendar-right">
-        <div class="year">2024</div>
+        <!-- <div class="year">2024</div> -->
         <!-- Paste here your calendar code -->
+        <div class="calendar"></div>
       </section>
-     
+
     </section>
 
 
   </main>
 
 </body>
-
+<script src="script.js"></script>
 </html>
